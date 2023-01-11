@@ -14,9 +14,9 @@ Exception thrown when querying many byte array table rows
 	2. --id: Required argument to run a query with a "Where ID = ?" condition;
 	3. --imagePath: Optional argument. It can be used to insert new rows in table with any image;
 3. Execute the program;
-4. The exception shall be thrown. Otherwise, check the path argument, database rows and the console application; 
+4. The exception shall be thrown. Otherwise, check the path argument, database rows and the console application;
 
-# About the bug: 
+# About the bug:
 As we noticed, the bug occurs when the program makes a query without WHERE condition in a table that:
 1. Has a GlobalStream column;
 2. Has at least (about) 20 rows that contains value in GlobalStream column (in our tests this number was enough to reproduce. It does not reproduce with less than that);
