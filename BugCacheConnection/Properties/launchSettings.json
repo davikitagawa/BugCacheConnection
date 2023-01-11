@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BugCacheConnection": {
+      "commandName": "Project",
+      "commandLineArgs": ""
+    }
+  }
+}
